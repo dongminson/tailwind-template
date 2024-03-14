@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-yellow-main {
+  background-color: #ffe539;
+}
+
+.hero-header-text {
+  font-family: "Barlow",sans-serif;
+  font-weight: 300;
+  font-size: 3.5rem;
+  line-height: 1.1;
+}
+
+.hero-paragraph-text {
+  font-family: "Ubuntu",sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+.max-width-image {
+  max-width: 400px;
+}
